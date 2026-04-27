@@ -46,7 +46,7 @@ export default function Footer() {
               </svg>
             </a>
             {/* WhatsApp */}
-            <a href="https://wa.me/91XXXXXXXXXX" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"
+            <a href="https://wa.me/919457545344" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"
               className="w-9 h-9 rounded-full flex items-center justify-center transition-all duration-200 hover:scale-110 group"
               style={{ backgroundColor: "#121A2B" }}>
               <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4 transition-colors duration-200 group-hover:text-black" fill="currentColor" viewBox="0 0 24 24" style={{ color: "#B8C0D9" }}>

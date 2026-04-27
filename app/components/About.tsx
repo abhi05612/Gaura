@@ -61,7 +61,7 @@ export default function About() {
 
             <div className="mt-2">
               <a
-                href="https://wa.me/91XXXXXXXXXX?text=Hi%20I%20want%20consultation"
+                href="https://wa.me/919457545344?text=Hi%20I%20want%20consultation"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={btnPrimary}

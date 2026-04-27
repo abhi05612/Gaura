@@ -38,7 +38,7 @@ export default function RootLayout({
               Still have questions? Chat with us on WhatsApp
             </p>
             <a
-              href="https://wa.me/91XXXXXXXXXX?text=Hi%20I%20have%20a%20question"
+              href="https://wa.me/919457545344?text=Hi%20I%20have%20a%20question"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 px-5 h-11 rounded-xl font-semibold text-[14px] text-black shrink-0 transition-all duration-200 hover:scale-105"

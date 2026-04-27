@@ -13,7 +13,7 @@ const NAV_LINKS = [
 ];
 
 const WA_LINK =
-  "https://wa.me/91XXXXXXXXXX?text=Hi%20I%20want%20consultation";
+  "https://wa.me/919457545344?text=Hi%20I%20want%20consultation";
 
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);

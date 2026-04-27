@@ -21,7 +21,7 @@ export default function CTA() {
 
         <div className="flex flex-col sm:flex-row gap-3 w-full sm:w-auto mb-5">
           <a
-            href="https://wa.me/91XXXXXXXXXX?text=Hi%20I%20want%20consultation"
+            href="https://wa.me/919457545344?text=Hi%20I%20want%20consultation"
             target="_blank"
             rel="noopener noreferrer"
             className={btnPrimary}
@@ -33,7 +33,7 @@ export default function CTA() {
             Chat on WhatsApp Now
           </a>
           <a
-            href="https://wa.me/91XXXXXXXXXX?text=Hi%20I%20want%20consultation"
+            href="https://wa.me/919457545344?text=Hi%20I%20want%20consultation"
             target="_blank"
             rel="noopener noreferrer"
             className={btnSecondary}
