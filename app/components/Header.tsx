@@ -114,9 +114,10 @@ export default function Header() {
 
       {/* MOBILE MENU */}
       <div
-        className={`md:hidden fixed inset-0 top-16 bg-[#0B1220] z-40 flex flex-col px-6 py-8 gap-6 transition-all duration-300 ${
-          menuOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
+        className={`md:hidden fixed inset-0 top-16 z-40 flex flex-col px-6 py-8 gap-6 transition-transform duration-300 ${
+          menuOpen ? "translate-x-0 pointer-events-auto" : "translate-x-full pointer-events-none"
         }`}
+        style={{ backgroundColor: "#0B1220" }}
       >
         <nav className="flex flex-col gap-5" aria-label="Mobile navigation">
           {NAV_LINKS.map(({ label, href }) => (
