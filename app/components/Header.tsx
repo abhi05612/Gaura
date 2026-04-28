@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const NAV_LINKS = [
   { label: "Home", href: "#" },
@@ -37,20 +38,8 @@ export default function Header() {
       <div className="max-w-[1200px] mx-auto px-6 flex items-center justify-between h-20 md:h-20 h-16">
 
         {/* LOGO */}
-        <Link href="/" className="flex items-center gap-2 shrink-0">
-          <span
-            className="w-9 h-9 rounded-full flex items-center justify-center text-lg"
-            style={{ backgroundColor: "#F4C430", color: "#0B1220" }}
-            aria-hidden="true"
-          >
-            ✦
-          </span>
-          <span
-            className="text-white text-xl font-bold"
-            style={{ fontFamily: "var(--font-playfair)" }}
-          >
-            Gaura Astrology
-          </span>
+        <Link href="/" className="flex items-center shrink-0">
+          <Image src="/logo.png" alt="Gaura Astrology" width={120} height={48} priority />
         </Link>
 
         {/* CENTER NAV — desktop */}

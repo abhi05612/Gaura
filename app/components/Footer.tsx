@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const QUICK_LINKS = ["Home", "About", "Services", "Blog", "Contact"];
 const SERVICES = ["Marriage Consultation", "Relationship Analysis", "Career Guidance", "Business Astrology"];
@@ -18,12 +19,8 @@ export default function Footer() {
 
         {/* Col 1: Brand */}
         <div className="flex flex-col gap-4">
-          <Link href="/" className="flex items-center gap-2">
-            <span className="w-9 h-9 rounded-full flex items-center justify-center text-lg shrink-0"
-              style={{ backgroundColor: "#F4C430", color: "#0B1220" }}>✦</span>
-            <span className="text-white text-xl font-bold" style={{ fontFamily: "var(--font-playfair)" }}>
-              Gaura Astrology
-            </span>
+          <Link href="/" className="flex items-center">
+            <Image src="/logo.png" alt="Gaura Astrology" width={120} height={48} />
           </Link>
           <p className="text-[14px] leading-relaxed" style={{ color: "#B8C0D9", fontFamily: "var(--font-poppins)" }}>
             Providing accurate astrology guidance to help you make better life decisions.
