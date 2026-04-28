@@ -1,12 +1,12 @@
 import Image from "next/image";
 
 const POSTS = [
-  { image: "/images/insta1.jpg", link: "https://instagram.com/p/xxxx" },
-  { image: "/images/insta2.jpg", link: "https://instagram.com/p/yyyy" },
-  { image: "/images/insta3.jpg", link: "https://instagram.com/p/zzzz" },
-  { image: "/images/insta4.jpg", link: "https://instagram.com/p/aaaa" },
-  { image: "/images/insta5.jpg", link: "https://instagram.com/p/bbbb" },
-  { image: "/images/insta6.jpg", link: "https://instagram.com/p/cccc" },
+  { image: "/images/insta1.jpg", link: "https://www.instagram.com/reel/DRd4DxsD-8d/?igsh=a2p2Zm1ybG9mY3dr" },
+  { image: "/images/insta2.jpg", link: "https://www.instagram.com/reel/DR11ExNjwcL/?igsh=MWZ4ZHJpbjZrdXRnNg==" },
+  { image: "/images/insta3.jpg", link: "https://www.instagram.com/reel/DQ_lNr0D5r_/?igsh=bDAzbHp1dm1mMTJ4" },
+  { image: "/images/insta4.jpg", link: "https://www.instagram.com/reel/DXV6CrED7Zi/?igsh=MXR0MTRscmNleGhiag==" },
+  { image: "/images/insta5.jpg", link: "https://www.instagram.com/reel/DXf0kuvD-v0/?igsh=MW1jZG9pcGhxdzl0cQ==" },
+  { image: "/images/insta6.jpg", link: "https://www.instagram.com/reel/DOgL8kJj79H/?igsh=MXZ5emhqamM5bGFrdw==" },
 ];
 
 export default function InstagramFeed() {
