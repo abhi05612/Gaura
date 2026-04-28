@@ -114,7 +114,7 @@ export default function Header() {
 
       {/* MOBILE MENU */}
       <div
-        className={`md:hidden fixed inset-0 top-16 z-40 flex flex-col px-6 py-8 gap-6 transition-transform duration-300 ${
+        className={`md:hidden fixed left-0 right-0 top-16 bottom-0 z-40 flex flex-col px-6 py-8 gap-6 overflow-y-auto transition-transform duration-300 ${
           menuOpen ? "translate-x-0 pointer-events-auto" : "translate-x-full pointer-events-none"
         }`}
         style={{ backgroundColor: "#0B1220" }}
