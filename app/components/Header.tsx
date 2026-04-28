@@ -26,6 +26,11 @@ export default function Header() {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
+  useEffect(() => {
+    document.body.style.overflow = menuOpen ? "hidden" : "";
+    return () => { document.body.style.overflow = ""; };
+  }, [menuOpen]);
+
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
@@ -114,10 +119,10 @@ export default function Header() {
 
       {/* MOBILE MENU */}
       <div
-        className={`md:hidden fixed left-0 right-0 top-16 bottom-0 z-40 overflow-y-auto transition-transform duration-300 ${
+        className={`md:hidden fixed left-0 right-0 top-[64px] z-40 overflow-y-auto transition-transform duration-300 ${
           menuOpen ? "translate-x-0 pointer-events-auto" : "translate-x-full pointer-events-none"
         }`}
-        style={{ backgroundColor: "#0B1220" }}
+        style={{ backgroundColor: "#0B1220", height: "calc(100vh - 64px)" }}
       >
         <div className="flex flex-col px-6 py-8 gap-6 min-h-full">
         <nav className="flex flex-col gap-5" aria-label="Mobile navigation">
