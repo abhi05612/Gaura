@@ -4,6 +4,7 @@ import Services from "./components/Services";
 import WhyUs from "./components/WhyUs";
 import Testimonials from "./components/Testimonials";
 import About from "./components/About";
+import InstagramFeed from "./components/InstagramFeed";
 import CTA from "./components/CTA";
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       <WhyUs />
       <Testimonials />
       <About />
+      <InstagramFeed />
       <CTA />
     </main>
   );
