@@ -1,12 +1,12 @@
 import Image from "next/image";
 
 const POSTS = [
-  { id: 1, src: "https://picsum.photos/seed/astro1/600/600", alt: "Astrology post 1" },
-  { id: 2, src: "https://picsum.photos/seed/astro2/600/600", alt: "Astrology post 2" },
-  { id: 3, src: "https://picsum.photos/seed/astro3/600/600", alt: "Astrology post 3" },
-  { id: 4, src: "https://picsum.photos/seed/astro4/600/600", alt: "Astrology post 4" },
-  { id: 5, src: "https://picsum.photos/seed/astro5/600/600", alt: "Astrology post 5" },
-  { id: 6, src: "https://picsum.photos/seed/astro6/600/600", alt: "Astrology post 6" },
+  { image: "/images/insta1.jpg", link: "https://instagram.com/p/xxxx" },
+  { image: "/images/insta2.jpg", link: "https://instagram.com/p/yyyy" },
+  { image: "/images/insta3.jpg", link: "https://instagram.com/p/zzzz" },
+  { image: "/images/insta4.jpg", link: "https://instagram.com/p/aaaa" },
+  { image: "/images/insta5.jpg", link: "https://instagram.com/p/bbbb" },
+  { image: "/images/insta6.jpg", link: "https://instagram.com/p/cccc" },
 ];
 
 export default function InstagramFeed() {
@@ -28,17 +28,17 @@ export default function InstagramFeed() {
 
         {/* Grid — desktop 3col, tablet 2col, mobile horizontal scroll */}
         <div className="hidden sm:grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {POSTS.map((post) => (
+          {POSTS.map((post, i) => (
             <a
-              key={post.id}
-              href="https://www.instagram.com/astro.shweta/"
+              key={i}
+              href={post.link}
               target="_blank"
               rel="noopener noreferrer"
               className="group relative aspect-square rounded-2xl overflow-hidden bg-[#121A2B]"
             >
               <Image
-                src={post.src}
-                alt={post.alt}
+                src={post.image}
+                alt={`Instagram post ${i + 1}`}
                 fill
                 loading="lazy"
                 className="object-cover transition-transform duration-300 group-hover:scale-105"
@@ -55,17 +55,17 @@ export default function InstagramFeed() {
 
         {/* Mobile horizontal scroll */}
         <div className="flex sm:hidden gap-4 overflow-x-auto snap-x snap-mandatory pb-2 scrollbar-hide">
-          {POSTS.map((post) => (
+          {POSTS.map((post, i) => (
             <a
-              key={post.id}
-              href="https://www.instagram.com/astro.shweta/"
+              key={i}
+              href={post.link}
               target="_blank"
               rel="noopener noreferrer"
               className="group relative snap-start shrink-0 w-[280px] aspect-square rounded-2xl overflow-hidden bg-[#121A2B]"
             >
               <Image
-                src={post.src}
-                alt={post.alt}
+                src={post.image}
+                alt={`Instagram post ${i + 1}`}
                 fill
                 loading="lazy"
                 className="object-cover transition-transform duration-300 group-hover:scale-105"
