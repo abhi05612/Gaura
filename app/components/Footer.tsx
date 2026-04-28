@@ -27,7 +27,7 @@ export default function Footer() {
           </p>
           <div className="flex gap-3 mt-1">
             {/* Instagram */}
-            <a href="#" aria-label="Instagram"
+            <a href="https://www.instagram.com/astro.shweta/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"
               className="w-9 h-9 rounded-full flex items-center justify-center transition-all duration-200 hover:scale-110 group"
               style={{ backgroundColor: "#121A2B" }}>
               <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4 transition-colors duration-200 group-hover:text-black" fill="currentColor" viewBox="0 0 24 24" style={{ color: "#B8C0D9" }}>
@@ -122,7 +122,7 @@ export default function Footer() {
       <div style={{ borderTop: "1px solid rgba(255,255,255,0.05)" }}>
         <div className="max-w-[1200px] mx-auto px-6 py-6 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="text-[13px]" style={{ color: "#B8C0D9", fontFamily: "var(--font-poppins)" }}>
-            © 2024 Gaura Astrology. All Rights Reserved.
+            © 2024 gauraastroprediction. All Rights Reserved.
           </p>
           <div className="flex gap-5">
             {["Privacy Policy", "Terms & Conditions"].map((item) => (
