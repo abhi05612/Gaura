@@ -59,7 +59,7 @@ export default function Footer() {
               </svg>
             </a>
             {/* WhatsApp */}
-            <a href="https://wa.me/919457545344" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"
+            <a href="https://wa.me/917078410907" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"
               className="w-9 h-9 rounded-full flex items-center justify-center transition-all duration-200 hover:scale-110 group"
               style={{ backgroundColor: "#121A2B" }}>
               <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4 transition-colors duration-200 group-hover:text-black" fill="currentColor" viewBox="0 0 24 24" style={{ color: "#B8C0D9" }}>
@@ -107,12 +107,12 @@ export default function Footer() {
           <h3 className="text-white font-semibold text-[15px]" style={{ fontFamily: "var(--font-poppins)" }}>Contact Info</h3>
           <ul className="flex flex-col gap-3">
             <li>
-              <a href="tel:+919457545344" className="flex items-start gap-2.5 text-[14px] hover:text-white transition-colors duration-200"
+              <a href="tel:+917078410907" className="flex items-start gap-2.5 text-[14px] hover:text-white transition-colors duration-200"
                 style={{ color: "#B8C0D9", fontFamily: "var(--font-poppins)" }}>
                 <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4 mt-0.5 shrink-0" fill="currentColor" viewBox="0 0 24 24" style={{ color: "#F4C430" }}>
                   <path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z"/>
                 </svg>
-                +91 94575 45344
+                +91 70784 10907
               </a>
             </li>
             <li>

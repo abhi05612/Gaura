@@ -89,7 +89,7 @@ export default function Testimonials() {
             Join <span style={{ color: "#F4C430" }}>5000+</span> Happy Clients
           </p>
           <a
-            href="https://wa.me/919457545344?text=Hi%20I%20want%20consultation"
+            href="https://wa.me/917078410907?text=Hi%20I%20want%20consultation"
             target="_blank"
             rel="noopener noreferrer"
             className={btnPrimary}

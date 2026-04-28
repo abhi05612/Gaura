@@ -99,7 +99,7 @@ export default function WhyUs() {
             Helping thousands find <span style={{ color: "#F4C430" }}>clarity and direction</span> in life
           </p>
           <a
-            href="https://wa.me/919457545344?text=Hi%20I%20want%20consultation"
+            href="https://wa.me/917078410907?text=Hi%20I%20want%20consultation"
             target="_blank"
             rel="noopener noreferrer"
             className={btnSecondary}

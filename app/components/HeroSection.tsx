@@ -45,7 +45,7 @@ export default function HeroSection() {
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-3 mb-8">
               <a
-                href="https://wa.me/919457545344?text=Hi%20I%20want%20consultation"
+                href="https://wa.me/917078410907?text=Hi%20I%20want%20consultation"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2 h-[52px] px-7 rounded-xl font-semibold text-[15px] text-black transition-transform duration-200 hover:scale-105 w-full sm:w-auto"

@@ -84,7 +84,7 @@ export default function Problems() {
 
         {/* CTA */}
         <div className="flex justify-center">
-          <a href="https://wa.me/919457545344?text=Hi%20I%20want%20consultation" target="_blank" rel="noopener noreferrer" className={btnPrimary}>
+          <a href="https://wa.me/917078410907?text=Hi%20I%20want%20consultation" target="_blank" rel="noopener noreferrer" className={btnPrimary}>
             Get Your Solution Now
           </a>
         </div>
