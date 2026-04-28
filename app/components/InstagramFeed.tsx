@@ -11,7 +11,7 @@ const POSTS = [
 
 export default function InstagramFeed() {
   return (
-    <section className="py-16 md:py-24" style={{ backgroundColor: "#0E1628" }}>
+    <section id="insights" className="py-16 md:py-24" style={{ backgroundColor: "#0E1628" }}>
       <div className="max-w-[1200px] mx-auto px-6">
         {/* Header */}
         <div className="flex flex-col items-center text-center mb-12">

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 
-const QUICK_LINKS = ["Home", "About", "Services", "Blog", "Contact"];
+const QUICK_LINKS = ["Home", "About", "Services", "Insights", "Contact"];
 const SERVICES = ["Marriage Consultation", "Relationship Analysis", "Career Guidance", "Business Astrology"];
 
 export default function Footer() {
