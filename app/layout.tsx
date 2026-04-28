@@ -20,6 +20,7 @@ export const metadata: Metadata = {
   title: "Gaura Astrology - Guidance, Clarity & Destiny",
   description:
     "Get accurate astrology guidance for your love, career, marriage, business and life decisions.",
+  icons: { icon: "/favicon.ico" },
 };
 
 export default function RootLayout({
